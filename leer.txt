@@ -4,9 +4,9 @@ de carga y lo que puede hacer un usuario en la pagina web
 RewriteEngine On # habilita reescribir en el servidor
 Options All -Indexes #oculta carpetas del servidor
 RewriteRule ^([a-zA-Z09/ñÑ-]+)$ index.php?views=$1  #permite todos esos carracteres en la url que venga luego de index.php
+autoload carga todo de una clase sin tener que llamarla al usarla en varios archivos
 
-
-
+descargo bulma css y pego el archivo min en la carpeta views/css. luego agrego el lik en el archivo head.php
 
 
 
