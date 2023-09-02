@@ -7,9 +7,3 @@ RewriteRule ^([a-zA-Z09/ñÑ-]+)$ index.php?views=$1  #permite todos esos carrac
 autoload carga todo de una clase sin tener que llamarla al usarla en varios archivos
 
 descargo bulma css y pego el archivo min en la carpeta views/css. luego agrego el lik en el archivo head.php
-
-
-
-en la carpeta libreria esta el archivo Route , en el hay un array con todas las rutas (vistas) que toene
-mi pagina web. por medio de las funciones get y post agrego esas rutas desde el web.php usando
-Route::get al ser un metodo estatico la funcion get lo llamo con ::
